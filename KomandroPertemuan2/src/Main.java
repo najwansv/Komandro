@@ -26,8 +26,8 @@ public class Main {
 
         // menampilkan yang diimput
         System.out.println("======================");
-        System.out.println("Nama lengkap: " + namaLengkap);
-        System.out.println("Nama pendek: " + namaPendek);
-        System.out.println("usia: " + usia);
+        System.out.format("Nama lengkap: %s\n", namaLengkap);
+        System.out.format("Nama pendek: %s\n", namaPendek);
+        System.out.format("Nama pendek: %d\n", usia);
     }
 }
