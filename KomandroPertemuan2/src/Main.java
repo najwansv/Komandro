@@ -29,5 +29,7 @@ public class Main {
         System.out.format("Nama lengkap: %s\n", namaLengkap);
         System.out.format("Nama pendek: %s\n", namaPendek);
         System.out.format("Nama pendek: %d\n", usia);
+        
+        keyboard.close();
     }
 }
