@@ -31,7 +31,7 @@ public class Challenge {
                 System.out.println("Umur anda belum mencukupi");
             }
         } else {
-            System.out.println("Maaf Kewarganegaraan anda bukan Indonesia");
+            System.out.println("Maaf Kewarganegaraan anda bukan Indonesia"); 
         }
         
         //  Terakhir, tampilkan nama dan kelas kalian.
