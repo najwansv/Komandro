@@ -1,35 +1,28 @@
-package KomandroPertemuan2.src;
-
-import java.util.Scanner;
 public class Main {
-    
+        
     public static void main(String[] args) {
-        // deklarasi var
-        String namaLengkap, namaPendek;
-        int usia;
-
-        // membuat scanner
-        Scanner keyboard = new Scanner(System.in);
-
-
-        System.out.println("halo selamat datang");
-        System.out.println("silahkan datang di rental kami");
-
-        System.out.print("Masukkan nama lengkap: ");
-        namaLengkap = keyboard.nextLine();
         
-        System.out.print("Masukkan nama pendek: ");
-        namaPendek = keyboard.nextLine();
-        
-        System.out.print("Masukkan usia: ");
-        usia = keyboard.nextInt();
+        String[] nama = new String[3];
+        Integer[] umur = new Integer[3];
 
-        // menampilkan yang diimput
-        System.out.println("======================");
-        System.out.format("Nama lengkap: %s\n", namaLengkap);
-        System.out.format("Nama pendek: %s\n", namaPendek);
-        System.out.format("Nama pendek: %d\n", usia);
+        nama[0] = "John Wick";
+        umur[0] = 20;
+
+        nama[1] = "Najwan svd";
+        umur[1] = 19;
+
+        nama[2] = "dominic";
+        umur[2] = 30;
+
+        System.out.println("Nama pertama = " + nama[0]);
+        System.out.println("umurnya adalah = " + umur[0]);
         
-        keyboard.close();
+        System.out.println("Nama kedua = " + nama[1]);
+        System.out.println("umurnya adalah = " + umur[1]);
+        
+        System.out.println("Nama ketiga = " + nama[2]);
+        System.out.println("umurnya adalah = " + umur[2]);
     }
+
+    
 }
