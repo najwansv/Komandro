@@ -24,13 +24,16 @@ public class Main1 {
 
         System.out.println("Nama : " + namaLengkap.get(2));
         System.out.println("Umur : " + umur.get(2));
-
+        
         System.out.println("=======================");
-
+        
         for( int urutan = 0 ; urutan < 3 ; urutan++ ){
-
-            
+            System.out.println("perulangan ke : " + urutan);
+            System.out.println("nama : " + namaLengkap.get (urutan));
+            System.out.println("Umur : " + umur.get(urutan));
         }
+
+        System.out.println("perulangan selesai");
     }
 
 }
